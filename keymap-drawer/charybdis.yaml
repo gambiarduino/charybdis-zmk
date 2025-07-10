@@ -73,7 +73,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   Navigation:
-  - {t: ▽, type: trans}
+  - $$mdi:keyboard-esc$$
   - {t: ▽, type: trans}
   - Gui+Sft+AltGr+Ctl+B
   - Sft+AltGr+Ctl+Gui+Y
@@ -82,8 +82,8 @@ layers:
   - HOME
   - UP ARROW
   - END
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RIGHT ALT
+  - $$mdi:apple-keyboard-caps$$
   - Sft+AltGr+Ctl+Gui+A
   - Gui+Sft+AltGr+Ctl+T
   - Gui+Sft+AltGr+Ctl+V
@@ -92,8 +92,8 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
   - Sft+AltGr+Ctl+Gui+X
   - Gui+Sft+AltGr+Ctl+S
   - Gui+Sft+AltGr+Ctl+C
@@ -102,24 +102,24 @@ layers:
   - Sft+Gui+[
   - {t: ▽, type: trans}
   - Sft+Gui+]
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   Function:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MCLK'
+  - $$mdi:keyboard-esc$$
+  - Sniper
+  - Scroll
   - '&mkp LCLK'
   - '&mkp RCLK'
   - F2
   - F10
   - F1
   - F3
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-caps$$
   - {t: ▽, type: trans}
   - MUTE
   - VOLUME DOWN
@@ -128,8 +128,8 @@ layers:
   - F12
   - F11
   - F5
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
   - Ctl+Gui+Q
   - $$mdi:skip-previous$$
   - $$mdi:skip-next$$
@@ -138,14 +138,14 @@ layers:
   - F8
   - F9
   - F7
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   VSCode:
-  - {t: ▽, type: trans}
+  - $$mdi:keyboard-esc$$
   - F2
   - Sft+F12
   - F12
@@ -154,8 +154,8 @@ layers:
   - Gui+[
   - Sft+UP ARROW
   - Gui+]
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-caps$$
   - {t: ▽, type: trans}
   - Alt+Sft+F
   - Gui+/
@@ -164,8 +164,8 @@ layers:
   - Alt+Sft+LEFT ARROW
   - Sft+DOWN ARROW
   - Alt+Sft+$$mdi:arrow-right-bold$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -174,9 +174,81 @@ layers:
   - Alt+LEFT ARROW
   - Gui+D
   - Alt+$$mdi:arrow-right-bold$$
+  - $$mdi:apple-keyboard-shift$$
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Scroll:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Sniper:
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
