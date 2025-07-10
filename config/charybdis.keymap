@@ -51,7 +51,7 @@
 
         Function {
             bindings = <
-  &trans  &trans         &mkp LCLK   &mkp RCLK          &trans             &kp F2  &kp F10  &kp F1   &kp F3  &trans
+  &trans  &trans         &mkp MCLK   &mkp LCLK          &mkp RCLK             &kp F2  &kp F10  &kp F1   &kp F3  &trans
   &trans  &trans         &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp F4  &kp F12  &kp F11  &kp F5  &trans
   &trans  &kp LC(LG(Q))  &kp C_PREV  &kp C_NEXT         &kp C_PLAY         &kp F6  &kp F8   &kp F9   &kp F7  &trans
                          &trans      &trans             &trans             &trans  &trans
