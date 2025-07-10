@@ -31,8 +31,8 @@ layers:
   - {t: '''', h: '"'}
   - {t: '~', h: ^}
   - {t: '`', h: '$$mdi:apple-keyboard-shift$$'}
-  - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', h: Function}
+  - {t: '$$mdi:keyboard-tab$$', h: VSCode}
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-return$$', h: Navigation}
   - {t: '$$mdi:keyboard-space$$', h: NumSym}
@@ -67,13 +67,13 @@ layers:
   - KP 9
   - KP 7
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:backspace$$', h: VSCode}
-  - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-space$$', type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
   Navigation:
-  - $$mdi:keyboard-esc$$
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+Sft+AltGr+Ctl+B
   - Sft+AltGr+Ctl+Gui+Y
@@ -82,8 +82,8 @@ layers:
   - HOME
   - UP ARROW
   - END
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-caps$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Sft+AltGr+Ctl+Gui+A
   - Gui+Sft+AltGr+Ctl+T
   - Gui+Sft+AltGr+Ctl+V
@@ -92,8 +92,8 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:keyboard-tab$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Sft+AltGr+Ctl+Gui+X
   - Gui+Sft+AltGr+Ctl+S
   - Gui+Sft+AltGr+Ctl+C
@@ -102,24 +102,24 @@ layers:
   - Sft+Gui+[
   - {t: ▽, type: trans}
   - Sft+Gui+]
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:keyboard-return$$', type: held}
-  - $$mdi:keyboard-space$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
   Function:
-  - $$mdi:keyboard-esc$$
-  - Ctl+Gui+Q
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - '&mkp RCLK'
   - {t: ▽, type: trans}
   - F2
   - F10
   - F1
   - F3
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-caps$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - MUTE
   - VOLUME DOWN
@@ -128,9 +128,9 @@ layers:
   - F12
   - F11
   - F5
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:keyboard-tab$$
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+Gui+Q
   - $$mdi:skip-previous$$
   - $$mdi:skip-next$$
   - PLAY
@@ -138,34 +138,34 @@ layers:
   - F8
   - F9
   - F7
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:backspace$$', type: held}
-  - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-space$$', h: VSCode}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   VSCode:
-  - $$mdi:keyboard-esc$$
+  - {t: ▽, type: trans}
   - F2
   - Sft+F12
   - F12
   - Sft+Gui+\
-  - Alt+UP ARROW
-  - Gui+L
   - {t: 'Gui+Sft+$$mdi:keyboard-return$$', type: enter}
-  - Sft+Gui+K
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-caps$$
+  - Gui+[
+  - Sft+UP ARROW
+  - Gui+]
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Alt+Sft+F
   - Gui+/
   - Alt+Sft+A
-  - Alt+$$mdi:arrow-down-bold$$
-  - Gui+[
   - {t: 'Gui+$$mdi:keyboard-return$$', type: enter}
-  - Gui+]
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:keyboard-tab$$
+  - Alt+Sft+LEFT ARROW
+  - Sft+DOWN ARROW
+  - Alt+Sft+$$mdi:arrow-right-bold$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -174,9 +174,9 @@ layers:
   - Alt+LEFT ARROW
   - Gui+D
   - Alt+$$mdi:arrow-right-bold$$
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:backspace$$', type: held}
-  - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-space$$', type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
