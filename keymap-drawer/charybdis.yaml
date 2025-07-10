@@ -111,9 +111,9 @@ layers:
   Function:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '&mkp MCLK'
   - '&mkp LCLK'
   - '&mkp RCLK'
-  - {t: ▽, type: trans}
   - F2
   - F10
   - F1
