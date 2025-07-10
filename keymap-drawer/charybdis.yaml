@@ -57,7 +57,7 @@ layers:
   - {t: ',', h: ;}
   - KP 5
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:keyboard-tab$$
+  - LEFT SHIFT
   - {t: '{', h: '}'}
   - {t: '[', h: ']'}
   - {t: (, h: )}
