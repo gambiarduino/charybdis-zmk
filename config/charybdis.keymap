@@ -24,7 +24,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        Base {
             bindings = <
 &ht LS(Q) Q  &ht LS(W) W  &ht LS(E) E  &ht LS(R) R      &ht LS(T) T    &ht LS(Y) Y  &ht LS(U) U  &ht LS(I) I                     &ht LS(O) O      &ht LS(P) P
 &ht LS(A) A  &ht LS(S) S  &ht LS(D) D  &ht LS(F) F      &ht LS(G) G    &ht LS(H) H  &ht LS(J) J  &ht LS(K) K                     &ht LS(L) L      &kp RCTRL
