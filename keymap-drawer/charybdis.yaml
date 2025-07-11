@@ -79,9 +79,9 @@ layers:
   - Sft+AltGr+Ctl+Gui+Y
   - {t: ▽, type: trans}
   - PG UP
-  - HOME
-  - UP ARROW
-  - END
+  - {t: HOME, h: Sft+HOME}
+  - {t: UP ARROW, h: Sft+UP ARROW}
+  - {t: END, h: Sft+END}
   - RIGHT ALT
   - $$mdi:apple-keyboard-caps$$
   - Sft+AltGr+Ctl+Gui+A
@@ -89,9 +89,9 @@ layers:
   - Gui+Sft+AltGr+Ctl+V
   - Sft+AltGr+Ctl+Gui+F
   - PAGE DOWN
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:arrow-left-bold$$', h: 'Sft+$$mdi:arrow-left-bold$$'}
+  - {t: '$$mdi:arrow-down-bold$$', h: 'Sft+$$mdi:arrow-down-bold$$'}
+  - {t: '$$mdi:arrow-right-bold$$', h: 'Sft+$$mdi:arrow-right-bold$$'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - Sft+AltGr+Ctl+Gui+X
@@ -110,8 +110,8 @@ layers:
   - {t: ▽, type: trans}
   Function:
   - $$mdi:keyboard-esc$$
-  - Sniper
   - Scroll
+  - Sniper
   - '&mkp LCLK'
   - '&mkp RCLK'
   - F2
@@ -150,9 +150,9 @@ layers:
   - Sft+F12
   - F12
   - Sft+Gui+\
-  - {t: 'Gui+Sft+$$mdi:keyboard-return$$', type: enter}
+  - {t: ▽, type: trans}
   - Gui+[
-  - Sft+UP ARROW
+  - {t: Alt+UP ARROW, h: Sft+Alt+UP ARROW}
   - Gui+]
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-caps$$
@@ -160,10 +160,10 @@ layers:
   - Alt+Sft+F
   - Gui+/
   - Alt+Sft+A
-  - {t: 'Gui+$$mdi:keyboard-return$$', type: enter}
-  - Alt+Sft+LEFT ARROW
-  - Sft+DOWN ARROW
-  - Alt+Sft+$$mdi:arrow-right-bold$$
+  - Ctl+G
+  - {t: 'Alt+$$mdi:arrow-left-bold$$', h: Alt+Sft+LEFT ARROW}
+  - {t: 'Alt+$$mdi:arrow-down-bold$$', h: Sft+Alt+DOWN ARROW}
+  - {t: 'Alt+$$mdi:arrow-right-bold$$', h: 'Alt+Sft+$$mdi:arrow-right-bold$$'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
@@ -171,19 +171,19 @@ layers:
   - {t: ▽, type: trans}
   - Sft+Gui+P
   - {t: ▽, type: trans}
-  - Alt+LEFT ARROW
+  - {t: ▽, type: trans}
   - Gui+D
-  - Alt+$$mdi:arrow-right-bold$$
+  - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: 'Gui+$$mdi:keyboard-return$$', h: 'Sft+Gui+$$mdi:keyboard-return$$'}
   - {t: ▽, type: trans}
   Scroll:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -218,8 +218,8 @@ layers:
   - {t: ▽, type: trans}
   Sniper:
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
