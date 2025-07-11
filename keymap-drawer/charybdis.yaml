@@ -31,8 +31,8 @@ layers:
   - {t: '''', h: '"'}
   - {t: '~', h: ^}
   - {t: '`', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:backspace$$', h: Function}
   - {t: '$$mdi:keyboard-tab$$', h: VSCode}
+  - {t: '$$mdi:backspace$$', h: Function}
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-return$$', h: Navigation}
   - {t: '$$mdi:keyboard-space$$', h: NumSym}
@@ -139,8 +139,8 @@ layers:
   - F9
   - F7
   - $$mdi:apple-keyboard-shift$$
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -175,8 +175,8 @@ layers:
   - Gui+D
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-shift$$
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: 'Gui+$$mdi:keyboard-return$$', h: 'Sft+Gui+$$mdi:keyboard-return$$'}
   - {t: ▽, type: trans}
@@ -211,8 +211,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -247,8 +247,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
