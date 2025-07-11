@@ -27,7 +27,7 @@
   &ht LS(Q) Q  &ht LS(W) W  &ht LS(E) E      &ht LS(R) R  &ht LS(T) T    &ht LS(Y) Y  &ht LS(U) U  &ht LS(I) I                     &ht LS(O) O      &ht LS(P) P
   &ht LS(A) A  &ht LS(S) S  &ht LS(D) D      &ht LS(F) F  &ht LS(G) G    &ht LS(H) H  &ht LS(J) J  &ht LS(K) K                     &ht LS(L) L      &kp RCTRL
   &ht LS(Z) Z  &ht LS(X) X  &ht LS(C) C      &ht LS(V) V  &ht LS(B) B    &ht LS(N) N  &ht LS(M) M  &ht DOUBLE_QUOTES SINGLE_QUOTE  &ht CARET TILDE  &ht RSHFT GRAVE
-                            &lt 3 BACKSPACE  &lt 4 TAB    &kp LGUI       &lt 2 ENTER  &lt 1 SPACE
+                            &lt 4 TAB  &lt 3 BACKSPACE    &kp LGUI       &lt 2 ENTER  &lt 1 SPACE
             >;
         };
 
