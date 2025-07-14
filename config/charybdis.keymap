@@ -24,10 +24,10 @@
 
         Base {
             bindings = <
-  &ht LS(Q) Q  &ht LS(W) W  &ht LS(E) E      &ht LS(R) R  &ht LS(T) T    &ht LS(Y) Y  &ht LS(U) U  &ht LS(I) I                     &ht LS(O) O      &ht LS(P) P
-  &ht LS(A) A  &ht LS(S) S  &ht LS(D) D      &ht LS(F) F  &ht LS(G) G    &ht LS(H) H  &ht LS(J) J  &ht LS(K) K                     &ht LS(L) L      &kp RCTRL
-  &ht LS(Z) Z  &ht LS(X) X  &ht LS(C) C      &ht LS(V) V  &ht LS(B) B    &ht LS(N) N  &ht LS(M) M  &ht DOUBLE_QUOTES SINGLE_QUOTE  &ht CARET TILDE  &ht RSHFT GRAVE
-                            &lt 4 TAB  &lt 3 BACKSPACE    &kp LGUI       &lt 2 ENTER  &lt 1 SPACE
+  &ht LS(Q) Q  &ht LS(W) W  &ht LS(E) E  &ht LS(R) R      &ht LS(T) T    &ht LS(Y) Y  &ht LS(U) U  &ht LS(I) I                     &ht LS(O) O      &ht LS(P) P
+  &ht LS(A) A  &ht LS(S) S  &ht LS(D) D  &ht LS(F) F      &ht LS(G) G    &ht LS(H) H  &ht LS(J) J  &ht LS(K) K                     &ht LS(L) L      &kp RCTRL
+  &ht LS(Z) Z  &ht LS(X) X  &ht LS(C) C  &ht LS(V) V      &ht LS(B) B    &ht LS(N) N  &ht LS(M) M  &ht DOUBLE_QUOTES SINGLE_QUOTE  &ht CARET TILDE  &ht RSHFT GRAVE
+                            &lt 4 TAB    &lt 3 BACKSPACE  &kp LGUI       &lt 2 ENTER  &lt 1 SPACE
             >;
         };
 
@@ -42,19 +42,19 @@
 
         Navigation {
             bindings = <
-  &kp ESC    &trans                 &kp RG(RS(RA(RC(B))))  &kp RS(RA(RC(RG(Y))))  &trans                   &kp PG_UP      &ht LS(HOME) HOME         &ht LS(UP_ARROW) UP_ARROW  &ht LS(END) END            &kp RIGHT_ALT
-  &kp CAPS   &kp RS(RA(RC(RG(A))))  &kp RG(RS(RA(RC(T))))  &kp RG(RS(RA(RC(V))))  &kp RS(RA(RC(RG(F))))    &kp PAGE_DOWN  &ht LS(LEFT) LEFT         &ht LS(DOWN) DOWN          &ht LS(RIGHT) RIGHT        &kp RCTRL
-  &kp LSHFT  &kp RS(RA(RC(RG(X))))  &kp RG(RS(RA(RC(S))))  &kp RG(RS(RA(RC(C))))  &kp RS(RA(RC(RG(M))))    &trans         &kp RS(RG(LEFT_BRACKET))  &trans                     &kp RS(RG(RIGHT_BRACKET))  &kp RSHFT
-                                    &trans                 &trans                 &trans                   &trans         &trans
+  &kp ESC    &trans                 &kp RG(RS(RA(RC(B))))  &kp RS(RA(RC(RG(Y))))  &trans                   &kp PG_UP                                  &ht LS(HOME) HOME          &ht LS(UP_ARROW) UP_ARROW                    &ht LS(END) END              &kp RIGHT_ALT
+  &kp CAPS   &kp RS(RA(RC(RG(A))))  &kp RG(RS(RA(RC(T))))  &kp RG(RS(RA(RC(V))))  &kp RS(RA(RC(RG(F))))    &kp PAGE_DOWN                              &ht LS(LEFT) LEFT          &ht LS(DOWN) DOWN                            &ht LS(RIGHT) RIGHT          &kp RCTRL
+  &kp LSHFT  &kp RS(RA(RC(RG(X))))  &kp RG(RS(RA(RC(S))))  &kp RG(RS(RA(RC(C))))  &kp RS(RA(RC(RG(M))))    &ht LG(LS(LEFT_BRACKET)) LG(LEFT_BRACKET)  &ht RS(LA(LEFT)) LA(LEFT)  &ht LS(LG(RIGHT_BRACKET)) LG(RIGHT_BRACKET)  &ht RS(LA(RIGHT)) LA(RIGHT)  &kp RSHFT
+                                    &trans                 &trans                 &trans                   &trans                                     &trans
             >;
         };
 
         Function {
             bindings = <
-  &kp ESC    &mo 5          &mo 6       &mkp LCLK          &mkp RCLK          &kp F2  &kp F10  &kp F1   &kp F3  &kp RALT
-  &kp CAPS   &trans         &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp F4  &kp F12  &kp F11  &kp F5  &kp RCTRL
-  &kp LSHFT  &kp LC(LG(Q))  &kp C_PREV  &kp C_NEXT         &kp C_PLAY         &kp F6  &kp F8   &kp F9   &kp F7  &kp RSHFT
-                            &trans      &trans             &trans             &trans  &trans
+  &kp ESC       &mo 5          &mo 6       &mkp LCLK          &mkp RCLK          &kp F2  &kp F10  &kp F1   &kp F3  &kp RALT
+  &kp LEFT_GUI  &trans         &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp F4  &kp F12  &kp F11  &kp F5  &kp RCTRL
+  &kp LSHFT     &kp LC(LG(Q))  &kp C_PREV  &kp C_NEXT         &kp C_PLAY         &kp F6  &kp F8   &kp F9   &kp F7  &kp RSHFT
+                               &trans      &trans             &trans             &trans  &trans
             >;
         };
 
