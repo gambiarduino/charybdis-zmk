@@ -98,10 +98,10 @@ layers:
   - Gui+Sft+AltGr+Ctl+S
   - Gui+Sft+AltGr+Ctl+C
   - Sft+AltGr+Ctl+Gui+M
-  - {t: ▽, type: trans}
-  - Sft+Gui+[
-  - {t: ▽, type: trans}
-  - Sft+Gui+]
+  - {t: 'Gui+[', h: 'Gui+Sft+['}
+  - {t: 'Alt+$$mdi:arrow-left-bold$$', h: 'Sft+Alt+$$mdi:arrow-left-bold$$'}
+  - {t: 'Gui+]', h: 'Sft+Gui+]'}
+  - {t: 'Alt+$$mdi:arrow-right-bold$$', h: 'Sft+Alt+$$mdi:arrow-right-bold$$'}
   - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -119,7 +119,7 @@ layers:
   - F1
   - F3
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-caps$$
+  - LEFT GUI
   - {t: ▽, type: trans}
   - MUTE
   - VOLUME DOWN
