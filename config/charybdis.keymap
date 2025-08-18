@@ -33,10 +33,10 @@
 
         NumSym {
             bindings = <
-  &kp ESC       &ht DOLLAR PERCENT       &ht LESS_THAN LEFT_BRACKET       &ht GREATER_THAN RIGHT_BRACKET     &kp EQUAL                   &kp KP_N2  &kp KP_NUMBER_0   &kp KP_N1            &kp KP_N3  &kp RALT
-  &kp CAPSLOCK  &ht BACKSLASH KP_DIVIDE  &ht AMPERSAND ASTERISK           &ht UNDERSCORE MINUS               &ht PIPE PLUS               &kp KP_N4  &ht COLON PERIOD  &ht SEMICOLON COMMA  &kp KP_N5  &kp RCTRL
-  &kp TAB       &ht HASH AT_SIGN         &ht LEFT_BRACE LEFT_PARENTHESIS  &ht RIGHT_BRACE RIGHT_PARENTHESIS  &ht EXCLAMATION QUESTION    &kp KP_N6  &kp KP_N8         &kp KP_N9            &kp KP_N7  &kp RSHFT
-                                         &trans                           &trans                             &trans                      &trans     &trans
+  &kp ESC       &ht DOLLAR PERCENT       &ht LESS_THAN LEFT_PARENTHESIS  &ht GREATER_THAN RIGHT_PARENTHESIS  &kp EQUAL                   &kp KP_N2  &kp KP_NUMBER_0   &kp KP_N1            &kp KP_N3  &kp RALT
+  &kp CAPSLOCK  &ht BACKSLASH KP_DIVIDE  &ht AMPERSAND ASTERISK          &ht UNDERSCORE MINUS                &ht PIPE PLUS               &kp KP_N4  &ht COLON PERIOD  &ht SEMICOLON COMMA  &kp KP_N5  &kp RCTRL
+  &kp TAB       &ht HASH AT_SIGN         &ht LEFT_BRACE LEFT_BRACKET     &ht RIGHT_BRACE RIGHT_BRACKET       &ht EXCLAMATION QUESTION    &kp KP_N6  &kp KP_N8         &kp KP_N9            &kp KP_N7  &kp RSHFT
+                                         &trans                          &trans                              &trans                      &trans     &trans
             >;
         };
 
