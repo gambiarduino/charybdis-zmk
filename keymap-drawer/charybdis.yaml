@@ -31,17 +31,17 @@ layers:
   - {t: '''', h: '"'}
   - {t: '~', h: ^}
   - {t: '`', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:keyboard-tab$$', h: VSCode}
+  - {t: END, h: VSCode}
   - {t: '$$mdi:backspace$$', h: Function}
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-return$$', h: Navigation}
   - {t: '$$mdi:keyboard-space$$', h: NumSym}
   NumSym:
   - $$mdi:keyboard-esc$$
-  - {t: $, h: '%'}
-  - {t: '@', h: '#'}
+  - {t: '%', h: $}
+  - {t: '[', h: <}
+  - {t: ']', h: '>'}
   - '='
-  - {t: '!', h: '?'}
   - KP 2
   - KP 0
   - KP 1
@@ -57,11 +57,11 @@ layers:
   - {t: ',', h: ;}
   - KP 5
   - $$mdi:apple-keyboard-control$$
-  - LEFT SHIFT
-  - {t: '{', h: '}'}
-  - {t: '[', h: ']'}
-  - {t: (, h: )}
-  - {t: <, h: '>'}
+  - $$mdi:keyboard-tab$$
+  - {t: '@', h: '#'}
+  - {t: (, h: '{'}
+  - {t: ), h: '}'}
+  - {t: '?', h: '!'}
   - KP 6
   - KP 8
   - KP 9
@@ -93,7 +93,7 @@ layers:
   - {t: '$$mdi:arrow-down-bold$$', h: 'Sft+$$mdi:arrow-down-bold$$'}
   - {t: '$$mdi:arrow-right-bold$$', h: 'Sft+$$mdi:arrow-right-bold$$'}
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:keyboard-tab$$
   - Sft+AltGr+Ctl+Gui+X
   - Gui+Sft+AltGr+Ctl+S
   - Gui+Sft+AltGr+Ctl+C
@@ -129,7 +129,7 @@ layers:
   - F11
   - F5
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:keyboard-tab$$
   - Ctl+Gui+Q
   - $$mdi:skip-previous$$
   - $$mdi:skip-next$$
@@ -165,7 +165,7 @@ layers:
   - {t: 'Alt+$$mdi:arrow-down-bold$$', h: Sft+Alt+DOWN ARROW}
   - {t: 'Alt+$$mdi:arrow-right-bold$$', h: 'Alt+Sft+$$mdi:arrow-right-bold$$'}
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:keyboard-tab$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
