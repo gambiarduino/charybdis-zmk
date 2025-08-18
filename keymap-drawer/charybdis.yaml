@@ -39,8 +39,8 @@ layers:
   NumSym:
   - $$mdi:keyboard-esc$$
   - {t: '%', h: $}
-  - {t: '[', h: <}
-  - {t: ']', h: '>'}
+  - {t: (, h: <}
+  - {t: ), h: '>'}
   - '='
   - KP 2
   - KP 0
@@ -59,8 +59,8 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:keyboard-tab$$
   - {t: '@', h: '#'}
-  - {t: (, h: '{'}
-  - {t: ), h: '}'}
+  - {t: '[', h: '{'}
+  - {t: ']', h: '}'}
   - {t: '?', h: '!'}
   - KP 6
   - KP 8
