@@ -252,3 +252,22 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+combos:
+- p: [2, 3]
+  k: <
+  l: [NumSym]
+- p: [3, 4]
+  k: '>'
+  l: [NumSym]
+- p: [12, 13]
+  k: '&'
+  l: [NumSym]
+- p: [13, 14]
+  k: '|'
+  l: [NumSym]
+- p: [23, 24]
+  k: '!'
+  l: [NumSym]
+- p: [16, 17]
+  k: ':'
+  l: [NumSym]
