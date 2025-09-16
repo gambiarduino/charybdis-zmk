@@ -303,7 +303,7 @@ path.combo {
 </g>
 <g transform="translate(167, 203)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">END</text>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:keyboard-esc"/>
 <a href="#VSCode">
 <text x="0" y="24" class="key hold layer-activator">VSCode</text>
 </a></g>
@@ -329,6 +329,10 @@ path.combo {
 <a href="#NumSym">
 <text x="0" y="24" class="key hold layer-activator">NumSym</text>
 </a></g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="546" y="130" width="28" height="26" class="combo"/>
+<text x="560" y="144" class="combo tap">&quot;</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 329)" class="layer-NumSym">
@@ -531,6 +535,14 @@ path.combo {
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="546" y="74" width="28" height="26" class="combo"/>
 <text x="560" y="88" class="combo tap">:</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="546" y="18" width="28" height="26" class="combo"/>
+<text x="560" y="32" class="combo tap">END</text>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">_</text>
 </g>
 </g>
 </g>
@@ -871,6 +883,18 @@ path.combo {
 <g transform="translate(499, 211) rotate(-15.0)" class="key trans keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
+<text x="168" y="88" class="combo tap">Gui+C</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="154" y="18" width="28" height="26" class="combo"/>
+<text x="168" y="32" class="combo tap">Gui+X</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">Gui+V</text>
 </g>
 </g>
 </g>
