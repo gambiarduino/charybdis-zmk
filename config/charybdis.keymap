@@ -3,6 +3,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+
 / {
     chosen { zmk,matrix_transform = &five_column_transform; };
 
@@ -56,6 +57,42 @@
             key-positions = <16 17>;
             layers = <1>;
         };
+
+        combo_end {
+            bindings = <&kp END>;
+            key-positions = <7 6>;
+            layers = <1>;
+        };
+
+        combo_quote {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <26 27>;
+            layers = <0>;
+        };
+
+        combo_under {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <22 23>;
+            layers = <1>;
+        };
+
+        combo_copy {
+            bindings = <&kp LG(C)>;
+            key-positions = <12 13>;
+            layers = <3>;
+        };
+
+        combo_cut {
+            bindings = <&kp LG(X)>;
+            key-positions = <2 3>;
+            layers = <3>;
+        };
+
+        combo_paste {
+            bindings = <&kp LG(V)>;
+            key-positions = <22 23>;
+            layers = <3>;
+        };
     };
 
     keymap {
@@ -66,7 +103,7 @@
   &ht LS(Q) Q  &ht LS(W) W  &ht LS(E) E  &ht LS(R) R      &ht LS(T) T    &ht LS(Y) Y  &ht LS(U) U  &ht LS(I) I                     &ht LS(O) O      &ht LS(P) P
   &ht LS(A) A  &ht LS(S) S  &ht LS(D) D  &ht LS(F) F      &ht LS(G) G    &ht LS(H) H  &ht LS(J) J  &ht LS(K) K                     &ht LS(L) L      &kp RCTRL
   &ht LS(Z) Z  &ht LS(X) X  &ht LS(C) C  &ht LS(V) V      &ht LS(B) B    &ht LS(N) N  &ht LS(M) M  &ht DOUBLE_QUOTES SINGLE_QUOTE  &ht CARET TILDE  &ht RSHFT GRAVE
-                            &lt 4 END    &lt 3 BACKSPACE  &kp LGUI       &lt 2 ENTER  &lt 1 SPACE
+                            &lt 4 ESC    &lt 3 BACKSPACE  &kp LGUI       &lt 2 ENTER  &lt 1 SPACE
             >;
         };
 
