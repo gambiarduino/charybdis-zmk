@@ -1,8 +1,8 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors/mouse_keys.dtsi>
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
 
 / {
     chosen { zmk,matrix_transform = &five_column_transform; };
@@ -153,7 +153,7 @@
         macro_cut_line: macro_select_line {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp END &kp LS(HOME) &kp LG(X)>;
+            bindings = <&kp END &kp LS(HOME) &kp LS(HOME) &kp LG(X) &kp BACKSPACE &kp DOWN>;
             label = "MACRO_SELECT_LINE";
         };
     };
