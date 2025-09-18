@@ -153,7 +153,7 @@
         macro_cut_line: macro_select_line {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp END &kp LS(HOME) &kp LS(HOME) &kp LG(X) &kp BACKSPACE &kp DOWN &kp HOME &kp HOME>;
+            bindings = <&kp END &kp HOME &kp HOME &kp LS(DOWN) &kp LG(X)>;
             label = "MACRO_SELECT_LINE";
         };
     };
